@@ -1,0 +1,21 @@
+.dws {
+    position: absolute;
+    top: 85%;
+   }    
+   .dws:hover { background: rgb(255, 30, 0); } /* при наведении курсора мышки */
+   .dws:active { background: rgb(95, 10, 0); } /* при нажатии */
+   .butt {
+    display: inline-block;
+    color: rgb(253, 253, 253);
+    font-size: 125%;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .80em .5em;
+    outline: none;
+    border: 2px solid rgb(0, 2, 99);
+    border-radius: 70px;
+    background: rgb(0, 119, 255) linear-gradient(rgb(0, 119, 255), rgb(0, 119, 255));
+    box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+    transition: box-shadow .2s, border-color .2s;
+  }
